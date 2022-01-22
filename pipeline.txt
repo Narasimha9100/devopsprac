@@ -13,7 +13,7 @@ git branch: 'main', url: 'https://github.com/Narasimha9100/devopsprac'
 
 stage ("maven-goal (stage-2)"){
 steps{
-echo "This is stage-2"
+sh "mvn clean package"
 }
 }
 
