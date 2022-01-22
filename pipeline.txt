@@ -5,7 +5,7 @@ stages{
 stage ("source-code (stage-1)"){
 steps{
 echo "My first scripted pipelines"
-echo "This is stage-1"
+git branch: 'main', url: 'https://github.com/Narasimha9100/devopsprac'
 }
 }
 
