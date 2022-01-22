@@ -1,8 +1,7 @@
 pipeline{
 agent any
 environment{
- path =  "
- E:\Softwares\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin:$path"
+ PATH="E:\Softwares\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin:$PATH"
 }
 stages{
 stage ("source-code (stage-1)"){
